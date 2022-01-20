@@ -11,7 +11,7 @@ ul, li{
 	padding: unset;
 }
 
-button {
+.hero-left button {
 	background-color: #3882f6;
 	font-family: inherit;
 	font-size: 18px;
@@ -86,18 +86,66 @@ button {
 	border-radius: 8px;
 }
 
+.cards-container {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	margin: auto;
+	margin-bottom: 100px;
+	gap: 20px;
+}
+
+.cards-container h1 {
+	margin-right: 20px;
+	text-align: center;
+	color: #1f2937;
+	font-weight: extra-bold;
+}
+
+.card {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cards-img {
+	border-color: #3882F6;
+	height: 160px;
+	width: 160px;
+	border-radius: 16px;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.cards-text {
+	text-align: center;
+	width: 150px;
+	margin-left: 10px;
+	color: #1f2937;
+	font-weight: 400;
+}
+
 .quote {
 	background-color: #E5E7EB;
 }
 
 .quote-text, .quote-author{
 	font-size: 36px;
+	width: 45%;
 	color: #1F2937;
+	margin: auto;
 }
 
 .quote-text {
 	font-style: italic;
 	font-weight: 300;
+	margin-top: 100px;
+}
+
+.quote-author {
+	text-align: right;
+	font-weight: bolder;
+	margin-bottom: 100px;
 }
 
 .footer {
@@ -109,6 +157,45 @@ button {
 .mailing-list {
 	color: white;
 	background-color: #3882F6;
-	width: 66%;
+	width: 50%;
 	margin: 50px auto;
+	padding-top: 4em;
+	padding-left: 8em;
+	padding-right: 8em;
+	padding-bottom: 4em;
+	border-radius: 12px;
+	display: flex;
+}
+
+.mailing-box {
+
+}
+
+.mailing-box h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.mailing-box p {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+}
+
+.mailing-btn button {
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 8px;
+	background-color: #3882f6;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E5E7EB;
+	padding: 4px 24px;
+}
+
+.mailing-btn {
+	margin-left: auto;
+	margin-right: 64px;
+	align-self: center;
 }
